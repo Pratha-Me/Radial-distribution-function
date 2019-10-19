@@ -43,10 +43,10 @@ tot_rad_func_hcr = 0; tot_rad_func_hcw = 0; tot_rad_func_h1 = 0; tot_rad_func_rc
 ! FILE WITH UNIT 1 IS INPUT FILE AND SHOULD BE READ BY THE PROGRAM----------------------
 open(unit =1, file = 'HISTORY.txt', status = 'UNKNOWN', action ='read')
 
-open(unit =2, file = 'hcr_cl.txt', status = 'UNKNOWN', action ='write')
-open(unit =3, file = 'h1_cl.txt', status = 'UNKNOWN', action ='write')
-open(unit =4, file = 'hcw_cl.txt', status = 'UNKNOWN', action ='write')
-open(unit =10, file = 'rc_cl.txt', status = 'UNKNOWN', action ='write')
+open(unit =2, file = 'file_1.txt', status = 'UNKNOWN', action ='write')
+open(unit =3, file = 'file_2.txt', status = 'UNKNOWN', action ='write')
+open(unit =4, file = 'file_3.txt', status = 'UNKNOWN', action ='write')
+open(unit =10, file = 'file_4.txt', status = 'UNKNOWN', action ='write')
 !  -------------------------------------------------------------------------------------
 
 write(*,*) 'Please note the instruction shown just below\n'
